@@ -6,27 +6,27 @@
     "scope": "/",
     "start_url": "/",
     "apple-mobile-web-app-capable": "yes",
-    "name": "OWPC wallet",
-    "short_name": "OWPC Wallet",
-    "description": "OWPC Wallet",
+    "name": "Xylothia wallet",
+    "short_name": "Xylothia Wallet",
+    "description": "Xylothia Wallet",
     "icons": [
         {
-            "src": "/OWPC-1.png",
+            "src": "/favicon.png",
             "sizes": "192x192",
             "type": "image/png"
         },
         {
-            "src": "/OWPC-1.png",
+            "src": "/favicon.png",
             "sizes": "256x256",
             "type": "image/png"
         },
         {
-            "src": "/OWPC-1.png",
+            "src": "/favicon.png",
             "sizes": "384x384",
             "type": "image/png"
         },
         {
-            "src": "/OWPC-1.png",
+            "src": "/favicon.png",
             "sizes": "512x512",
             "type": "image/png"
         }
