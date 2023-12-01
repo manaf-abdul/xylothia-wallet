@@ -31,7 +31,7 @@ export default function Layout({ children, initialized }: Props) {
         height: '100vh',
         paddingLeft: 0,
         paddingRight: 0,
-        backgroundImage:`url(/assets/mobile-background.png)`
+        // backgroundImage:`url(/assets/mobile-background.png)`
       }}
     >
       <Card
