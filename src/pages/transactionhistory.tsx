@@ -41,7 +41,7 @@ const Transactionhistory = () => {
 
                 isLoading ?
 
-                    <Text color='warning' css={{ opacity: '0.5', textAlign: 'center', marginTop: '$5' }}>Loading...</Text>
+                    <Text color={COLOR.primary} css={{ opacity: '0.5', textAlign: 'center', marginTop: '$5' }}>Loading...</Text>
                     :
                     transactionHistoryData?.data?.result?.length ?
                         transactionHistoryData.data.result.map((transaction: any, index: number) =>
