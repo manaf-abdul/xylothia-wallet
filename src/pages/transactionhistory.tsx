@@ -105,7 +105,7 @@ const Transactionhistory = () => {
                         )
                         :
 
-                        <Text color='warning' css={{ opacity: '0.5', textAlign: 'center', marginTop: '$5' }}>No Transactions</Text>
+                        <Text color={COLOR.primary} css={{ opacity: '0.5', textAlign: 'center', marginTop: '$5' }}>No Transactions</Text>
             }
 
         </Fragment>
