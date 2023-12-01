@@ -157,7 +157,7 @@ const OTPInputGroup = () => {
                     width: '100%',
                     background: "grey",
                     fontSize: "xxx-large !important",
-                    color: COLOR.yellow,
+                    color: COLOR.primary,
                     textAlign: "center",
                     borderRadius: "0.4rem"
                 }}

@@ -30,7 +30,7 @@ export default function Navigation() {
             icon={ */}
               <Image
                 alt="wallet connect icon"
-                src="/assets/OWPC-wallet-Logo.png"
+                src="/assets/wallet-Logo.png"
                 width={30}
                 height={30}
               />

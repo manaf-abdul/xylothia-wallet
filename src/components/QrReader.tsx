@@ -1,3 +1,4 @@
+import { COLOR } from '@/constants/style'
 import { Button, Loading } from '@nextui-org/react'
 import dynamic from 'next/dynamic'
 import Image from 'next/image'
@@ -64,7 +65,7 @@ export default function QrReader({ onConnect }: IProps) {
             className="qrIcon"
           />
           <Button
-            color="warning"
+            color={"primary"}
             css={{ marginTop: '$10', width: '100%' }}
             onClick={onShowScanner}
             data-testid="qrcode-button"  

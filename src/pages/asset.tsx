@@ -108,7 +108,7 @@ const Asset = () => {
     return (
         <Fragment>
             <Link href="/" passHref>
-                <ArrowBackIosNewIcon style={{ float: "left", }} sx={{ color: COLOR.yellow }} />
+                <ArrowBackIosNewIcon style={{ float: "left", }} sx={{ color: COLOR.primary }} />
             </Link>
             <div style={{ marginLeft: "28px", lineHeight: "23px" }}>
                 <PageHeader title={head} />

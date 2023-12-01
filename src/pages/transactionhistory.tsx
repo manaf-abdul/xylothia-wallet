@@ -68,7 +68,7 @@ const Transactionhistory = () => {
                                     {transaction?.to_address.toLowerCase() === eip155Address.toLowerCase() ?
                                         <div>
                                             <div style={{ display: 'flex' }}>
-                                                <SouthWestIcon sx={{ color: COLOR.yellow }} />
+                                                <SouthWestIcon sx={{ color: COLOR.primary }} />
                                                 <Text h6 color='warning'>
                                                     Recieve
                                                 </Text>
@@ -80,7 +80,7 @@ const Transactionhistory = () => {
                                         :
                                         <div>
                                             <div style={{ display: 'flex' }}>
-                                                <ArrowOutwardIcon sx={{ color: COLOR.yellow }} />
+                                                <ArrowOutwardIcon sx={{ color: COLOR.primary }} />
                                                 <Text h6 color='warning'>
                                                     Send
                                                 </Text>

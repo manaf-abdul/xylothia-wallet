@@ -8,6 +8,7 @@ import { styledToast } from '@/utils/HelperUtil'
 import SessionCard from '@/components/SessionCard'
 import PairingCard from '@/components/PairingCard'
 import { getSdkError } from '@walletconnect/utils'
+import { COLOR } from '@/constants/style'
 
 export default function WalletConnectPage() {
   const [uri, setUri] = useState('')
@@ -64,7 +65,7 @@ export default function WalletConnectPage() {
           </Button>
         }
       />
-      <Text h4 color="warning" css={{ marginBottom: '$5',marginTop: '$5' }}>
+      <Text h4 color={COLOR.primary} css={{ marginBottom: '$5',marginTop: '$5' }}>
         Sessions
       </Text>
       {sessions.length
@@ -82,9 +83,9 @@ export default function WalletConnectPage() {
           )
         })
         :
-        <Text color='warning' css={{ opacity: '0.5', textAlign: 'center', marginTop: '$5' }}>No sessions</Text>
+        <Text color={COLOR.primary} css={{ opacity: '0.5', textAlign: 'center', marginTop: '$5' }}>No sessions</Text>
       }
-      <Text h4 color="warning" css={{ marginBottom: '$5',marginTop: '$5' }}>
+      <Text h4 color={COLOR.primary} css={{ marginBottom: '$5',marginTop: '$5' }}>
         Pairings
       </Text>
        {pairings.length ? (
@@ -104,7 +105,7 @@ export default function WalletConnectPage() {
           )
         })
       ) : (
-        <Text color="warning" css={{ opacity: '0.5', textAlign: 'center', marginTop: '$5' }}>No pairings</Text>
+        <Text color={COLOR.primary} css={{ opacity: '0.5', textAlign: 'center', marginTop: '$5' }}>No pairings</Text>
       )}
     </Fragment>
   )

@@ -31,7 +31,7 @@ export default function SettingsPage() {
           </Text>
           <Row justify="space-between" align="center">
             <Text color="$gray400"><SettingsInputAntennaIcon />Available networks</Text>
-            <Text color="$gray400"><ArrowForwardIosIcon sx={{ color: COLOR.yellow }} /></Text>
+            <Text color="$gray400"><ArrowForwardIosIcon sx={{ color: COLOR.primary }} /></Text>
           </Row>
         </div>
       </Link>
@@ -44,7 +44,7 @@ export default function SettingsPage() {
           </Text>
           <Row justify="space-between" align="center">
             <Text color="$gray400"><SecurityIcon />Accounts,Mnemonics</Text>
-            <Text color="$gray400"><ArrowForwardIosIcon sx={{ color: COLOR.yellow }} /></Text>
+            <Text color="$gray400"><ArrowForwardIosIcon sx={{ color: COLOR.primary }} /></Text>
 
           </Row>
         </div>
@@ -82,7 +82,7 @@ export default function SettingsPage() {
           <Row justify="space-between" align="center">
 
             <Text color="$gray400"><InfoIcon />Privacy Policy, Terms and Conditions</Text>
-            <Text color="$gray400"><ArrowForwardIosIcon sx={{ color: COLOR.yellow }} /></Text>
+            <Text color="$gray400"><ArrowForwardIosIcon sx={{ color: COLOR.primary }} /></Text>
 
           </Row>
         </div>

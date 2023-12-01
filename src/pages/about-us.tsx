@@ -23,7 +23,7 @@ export default function SettingsPage() {
 
 
             <Link href="/settings" passHref>
-                <ArrowBackIosNewIcon style={{ float: 'left' }} sx={{ color: COLOR.yellow }} />
+                <ArrowBackIosNewIcon style={{ float: 'left' }} sx={{ color: COLOR.primary }} />
             </Link>
 
             <div style={{ marginLeft: '28px', lineHeight: '23px', marginBottom: "1rem" }}>
@@ -51,7 +51,7 @@ export default function SettingsPage() {
                     </Text>
                     <Row justify="space-between" align="center">
                         <Text color="$gray400"><PrivacyTipIcon fontSize='small'/>Read here</Text>
-                        <Text color="$gray400"><ArrowForwardIosIcon sx={{ color: COLOR.yellow }} /></Text>
+                        <Text color="$gray400"><ArrowForwardIosIcon sx={{ color: COLOR.primary }} /></Text>
 
                     </Row>
                 </div>
@@ -64,7 +64,7 @@ export default function SettingsPage() {
                     </Text>
                     <Row justify="space-between" align="center">
                         <Text color="$gray400"><TextSnippetIcon fontSize='small'/>Read here</Text>
-                        <Text color="$gray400"><ArrowForwardIosIcon sx={{ color: COLOR.yellow }} /></Text>
+                        <Text color="$gray400"><ArrowForwardIosIcon sx={{ color: COLOR.primary }} /></Text>
 
                     </Row>
                 </div>
@@ -77,7 +77,7 @@ export default function SettingsPage() {
                     </Text>
                     <Row justify="space-between" align="center">
                         <Text color="$gray400"> <LanguageIcon fontSize='small'/> {" "}Visit owpc.world</Text>
-                        <Text color="$gray400"><ArrowForwardIosIcon sx={{ color: COLOR.yellow }} /></Text>
+                        <Text color="$gray400"><ArrowForwardIosIcon sx={{ color: COLOR.primary }} /></Text>
 
                     </Row>
                 </div>
@@ -90,14 +90,14 @@ export default function SettingsPage() {
                 <Link href="#">
                     <Row justify="space-between" align="center" css={{padding:"0.5rem"}}>
                         <Text color="$gray400"><InsertCommentIcon/>Discord</Text>
-                        <Text color="$gray400"><ArrowForwardIosIcon sx={{ color: COLOR.yellow }} fontSize='small'/></Text>
+                        <Text color="$gray400"><ArrowForwardIosIcon sx={{ color: COLOR.primary }} fontSize='small'/></Text>
                     </Row>
                 </Link>
                 {/* <Divider y={0.4} /> */}
                 <Link href="#">
                     <Row justify="space-between" align="center"  css={{padding:"0.5rem"}}>
                         <Text color="$gray400"><TelegramIcon fontSize='small'></TelegramIcon>Telegram</Text>
-                        <Text color="$gray400"><ArrowForwardIosIcon sx={{ color: COLOR.yellow }} fontSize='small'/></Text>
+                        <Text color="$gray400"><ArrowForwardIosIcon sx={{ color: COLOR.primary }} fontSize='small'/></Text>
                     </Row>
                 </Link>
 

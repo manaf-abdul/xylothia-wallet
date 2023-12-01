@@ -8,6 +8,7 @@ import Link from 'next/link';
 import PageHeader from '@/components/PageHeader';
 import AssetCard from '@/components/AssetCard';
 import { Text } from '@nextui-org/react';
+import { COLOR } from '@/constants/style';
 const fetcher = (...args: [string, ...any[]]) => fetch(...args).then(res => res.json())
 
 const Home = () => {
@@ -54,7 +55,7 @@ const Home = () => {
                         )
                     })
                     :
-                    <Text color='warning' css={{ opacity: '0.5', textAlign: 'center', marginTop: '$5' }}>No Assets</Text>
+                    <Text color={COLOR.primary} css={{ opacity: '0.5', textAlign: 'center', marginTop: '$5' }}>No Assets</Text>
             }
 
         </Fragment>

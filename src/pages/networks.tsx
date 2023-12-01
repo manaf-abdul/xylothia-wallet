@@ -37,7 +37,7 @@ export default function HomePage() {
       <Link href="/settings" passHref>
         <ArrowBackIosNewIcon
           style={{ float: 'left', marginTop: '6px' }}
-          sx={{ color: COLOR.yellow }}
+          sx={{ color: COLOR.primary }}
         />
       </Link>
       <div style={{ marginLeft: '28px' }}>

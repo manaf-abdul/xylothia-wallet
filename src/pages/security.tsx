@@ -30,7 +30,7 @@ function Security() {
     return (
         <Fragment>
             <Link href="/settings" passHref>
-                <ArrowBackIosNewIcon style={{ float: "left", }} sx={{ color: COLOR.yellow }} />
+                <ArrowBackIosNewIcon style={{ float: "left", }} sx={{ color: COLOR.primary }} />
 
 
             </Link>
