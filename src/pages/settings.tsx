@@ -71,7 +71,7 @@ export default function SettingsPage() {
         <RelayRegionPicker />
       </Row> */}
 
-      <Divider y={2} />
+      {/* <Divider y={2} />
 
 
       <Link href='/about-us' passHref>
@@ -86,7 +86,7 @@ export default function SettingsPage() {
 
           </Row>
         </div>
-      </Link>
+      </Link> */}
       <Divider y={2} />
 
       {/* <Row onClick={() => {
